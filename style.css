@@ -1,1 +1,37 @@
-
+*{
+	margin:0;
+	padding:0;
+}
+.header{
+	width:100%;
+	height:150px;
+}
+.logo{
+	float:left;
+	height:100%;
+	
+}
+.logo-img{
+	/*makes the image the height of the header*/
+	height:100%;
+	width:auto;
+}
+.buttonlist1{
+	width:100%;
+}
+.button{
+	color:brown;
+	/*determines position of the buttons*/
+	display: inline-block;
+    width: 150px;
+    margin: 10px;
+    text-align: center;
+	margin-top:50px;
+	text-decoration:none;
+	
+	
+}
+.button:hover{
+	/*underline text in buttons when hovering over it*/
+	text-decoration:underline;
+}
