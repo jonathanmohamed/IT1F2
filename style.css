@@ -5,6 +5,13 @@
 p,h1,h2,h3,ul{
 	color:#45171d;
 }
+
+#container
+{
+	width: 1400px;
+	height:auto;
+	margin: 0 auto;
+}
 .header{
 	width:100%;
 	height:150px;
@@ -77,7 +84,6 @@ p,h1,h2,h3,ul{
 	opacity: 1;
 }
 
-/*menu below the slide*/
 #menu
 {
 	height: 40px;
@@ -86,6 +92,34 @@ p,h1,h2,h3,ul{
 	background-color:#45171d;
 	float: left;
 	text-align:center;
+}
+
+#dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+#dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #45171d;
+  min-width: 160px;
+  z-index: 1;
+  transition: 0.5s;
+}
+
+#dropdown-content a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  height: 40px;
+  width: 346.5px;
+  font-size: 20px;
+}
+
+#dropdown:hover #dropdown-content 
+{
+	display: block;
 }
 
 .menu2
