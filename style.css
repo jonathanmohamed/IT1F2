@@ -291,3 +291,64 @@ hr{
 	margin-left:120px;
 }
 /******************************************** ISAAC - CSS FOR BODY ENDS HERE *************************************/
+/******* Jonathan's Footer's CSS Starts Here******/
+.footer{
+	margin: 0 auto;
+	width: 1500px;
+	height: 150px;
+	background-color: #45171d;
+}
+.footerleft1{
+	width: 320px;
+	height: 51px;
+	float:left;
+	padding-top:15px;
+	padding-left:30px;
+}
+.footerleft2{
+	width: 350px;
+	height: 40px;
+	float:left;
+	clear:left;
+	font-size: 15px;
+	color: blue;
+	padding-top:18px;
+	padding-left:30px;
+}
+#footerimg{
+	width: 100px;
+	height: 100px;
+}
+
+.footerright{
+	width: 500px;
+	height: 150px;
+	float: right;
+}
+.footerimg1{
+	width: 51px;
+	height: 51px;
+	float:left;
+	padding:7px;
+}
+.footerimg2{
+	width: 70px;
+	height: 70px;
+	float:left;
+	padding:20px;
+}
+
+.footerimg4{
+	width: 51px;
+	height: 51px;
+	float:left;
+	padding:6px;
+	padding-left:25px;
+}
+a{
+	font-size:15px;
+	font-family:Arial;
+	color: white;
+	text-decoration: none;
+}
+/******* Jonathan's Footer's CSS End Here******/
