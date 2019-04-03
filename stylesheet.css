@@ -1,3 +1,4 @@
+/***************ISAAC - Body CSS starts here ****************/
 body {
 	background-color: white;
 	width: 960px;
@@ -94,7 +95,9 @@ hr{
 	float:left;
 	margin-left:120px;
 }
-/**Vu's css starts here *//
+
+/***********ISAAC - Body CSS ends here *******/
+/**********Vu's css starts here ******************/
 *{
 	margin:0;
 	padding:0;
@@ -209,4 +212,4 @@ hr{
 {
 	background-color:#6a454a;
 }
-/**Vu's css ends here
+/***********************Vu's css ends here************/
