@@ -308,7 +308,7 @@ h1{
 /******* Jonathan's Footer's CSS Starts Here******/
 .footer{
 	margin: 0 auto;
-	width: 1500px;
+	width: 1400px;
 	height: 150px;
 	background-color: #45171d;
 }
@@ -349,7 +349,7 @@ h1{
 	width: 70px;
 	height: 70px;
 	float:left;
-	padding:20px;
+	padding:10px;
 }
 
 .footerimg4{
