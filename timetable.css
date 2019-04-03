@@ -1,0 +1,40 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+.timetable
+{
+    border:1px solid;
+    border-color:black;
+    border-collapse: collapse;
+    
+}
+.timetable td,th
+{ 
+    border-left: 1px solid;
+    padding: 2px;
+    text-align: center;
+}
+.timetable th
+{
+    border-bottom:1px solid black;
+    min-width: 100px;
+    background-color: rgb(138,72,22);
+}
+.timetable th:nth-child(even)
+{
+    background-color: rgb(160,130,90);
+}
+
+
+.timetable td
+{
+    background-color: rgb(213,176,101);
+}
+.timetable td:nth-child(even)
+{
+    background-color: rgb(220,190,130);
+}
+
