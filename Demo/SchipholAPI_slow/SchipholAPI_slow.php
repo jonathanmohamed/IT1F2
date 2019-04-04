@@ -13,7 +13,7 @@
         $app_id = '38068e1e';
         $app_key = '046f60fa7ad7c6734ec44ea691e3af12';
         $hour = date('h');
-        $minute = date('i')-5;
+        $minute = date('i');
         $hhmm = $hour.'%3A'.$minute;
         
         $curl = curl_init('https://api.schiphol.nl/public-flights/flights?app_id=38068e1e&app_key=046f60fa7ad7c6734ec44ea691e3af12&scheduletime='.$hhmm.'&includedelays=false&page=0&sort=%2Bscheduletime');
