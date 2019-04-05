@@ -47,7 +47,7 @@
                     }
                     else
                     {
-                        if (strpos($_POST['email'],'@') && strpos($_POST['email'],'.com')) 
+                        if (!stristr($em,"@") OR !stristr($em,"."))  
                         {
                             echo "*Please enter a valid email address.";  
                         }
