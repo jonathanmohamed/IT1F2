@@ -1,0 +1,34 @@
+
+.body{
+	width: 1200px;
+	height: 2500px;
+	margin: 0px auto;
+}
+#container{
+	width: 1200px;
+	height: 1660px;
+}
+.titel{
+	width: 1070px;
+	height: 100px;
+	padding-left: 100px;
+	padding-top: 30px;
+}
+.bild{
+	width: 500px;
+	height: 677px;
+	padding-left: 100px;
+	float: left;
+	padding-top: 23px;
+}
+.detail{
+	width: 500px;
+	height: 700px;
+	padding-right: 100px;
+	float: right;
+}
+
+.klein{
+	width: 450px;
+	height: 380px;
+}
