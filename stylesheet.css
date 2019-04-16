@@ -16,9 +16,9 @@ body {
 	height: 700px;
 	float:left;
 	
-	/**margin-left: auto;
-	margin-right: auto;**/
-	/**display: inline-block;*///
+	/*margin-left: auto;
+	margin-right: auto;
+	display: inline-block;*/
 
 }
 .rectangles {
@@ -62,7 +62,7 @@ hr{
 	float: left;
 	margin-left: 60px;
 	/*width: 200px;
-	/*height:10px;**/
+	height:10px;*/
 }
 .removeTopSpace {
 	margin-top:0px;
@@ -163,7 +163,7 @@ hr{
 	left: 0px;
 }	
 
-#apply: hover
+#apply:hover
 {
 	width: 570px;
 	position: relative;
