@@ -35,7 +35,10 @@
 }
 .detaile{
 	width: 1200px;
-	height: 700px;
+	height: 600px;
+}
+.detaile a{
+	color: blue;
 }
 .kleine{
 	width: 600px;
@@ -49,4 +52,8 @@
 .detailee{
 	width: 1200px;
 	height: 500px;
-
+}
+.noedit{
+	color:yellow;
+	text-decoration: none;
+}
