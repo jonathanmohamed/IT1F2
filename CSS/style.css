@@ -45,11 +45,10 @@ p,h1,h2,h3,ul{
 	text-decoration:underline;
 }
 /*css for the slider*/
-/*css for the slider*/
 #slide
 {
 	width: 1400px;
-	height: 500px;
+	height: 600px;
 	background-image: url(images/bg1.jpg);
 	position:relative;
 }
@@ -58,11 +57,11 @@ p,h1,h2,h3,ul{
 {
 	width: 570px;
 	position: relative;
-	top: 330px;
+	top: 350px;
 	left: 0px;
 }	
 
-#apply:hover
+#apply: hover
 {
 	width: 570px;
 	position: relative;
@@ -80,7 +79,6 @@ p,h1,h2,h3,ul{
 {
 	opacity: 1;
 }
-/*end of css for the slide*/
 /*end of css for the slide*/
 /*small menu*/
 #menu
@@ -206,9 +204,10 @@ p,h1,h2,h3,ul{
 .footer{
 	margin: 0 auto;
 	width: 1400px;
-	height: 120px;
-	float:left;
+	height: 150px;
+	position: fixed;
 	background-color: #45171d;
+	bottom: 0px;
 }
 .footerleft1{
 	width: 320px;
@@ -264,17 +263,3 @@ a{
 	text-decoration: none;
 }
 /******* Jonathan's Footer's CSS End Here******/
-
-
-/******* Jonathan's about us CSS starts Here******/
-
-.about{
-	margin: 0 auto;
-	width: 900px;
-	height:900px;
-}
-.abtimg{
-	margin: 0 auto;
-	width: 1200px;
-	height:400px;
-}
