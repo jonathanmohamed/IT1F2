@@ -1,0 +1,215 @@
+/***************ISAAC - Body CSS starts here ****************/
+body {
+	background-color: white;
+	width: 960px;
+	height: auto;
+}
+#wrapper {
+	/**text-align:center;**/
+	
+	width: 1400px;
+	height: 700px;
+}
+#middle {
+	
+	width: 940px;
+	height: 700px;
+	float:left;
+	
+	/**margin-left: auto;
+	margin-right: auto;**/
+	/**display: inline-block;*///
+
+}
+.rectangles {
+	width: 920px;
+	height: 200px;
+	margin-top:20px;
+}
+a {
+	color: #45171d;
+	text-decoration: none;
+}
+hr{
+	
+}
+.moveRight {
+	margin-left: 30px;
+}
+#img1 {
+	float: left;
+	margin-left:50px;
+}
+#txt1 {
+	width: 500px;
+	float: left;
+	height: 100px;
+	padding-left: 60px;
+}
+#arrow1 {
+	width:120px;
+	height: 90px;
+	float:left;
+	padding-left: 200px;
+}
+#txt2 {
+	width: 390px;
+	height:190px;
+	float:left;
+	margin-left:50px;
+}
+#txt2i {
+	float: left;
+	margin-left: 60px;
+	/*width: 200px;
+	/*height:10px;**/
+}
+.removeTopSpace {
+	margin-top:0px;
+}
+#img2 {	
+	float: left;
+	margin-left: 0px;
+	width: 300px;
+}
+#arrow2 {
+	width: 120px;
+	/**height:90px;*/
+	float:left;
+	margin-left: 60px;
+}
+#img3 {
+	float: left;
+	margin-left: 50px;
+}
+#txt3 {
+	width: 500px;
+	height:50px;
+	float:left;
+	padding-left: 70px;
+}
+#txt3i {
+	float: left;
+}
+#arrow3 {
+	float:left;
+	margin-left:120px;
+}
+
+/***********ISAAC - Body CSS ends here *******/
+/**********Vu's css starts here ******************/
+*{
+	margin:0;
+	padding:0;
+	text-decoration:none;
+}
+
+#container
+{
+	width: 1400px;
+	height: auto;
+	margin: 0 auto;
+}
+	
+.header
+{
+	width:1400px ;
+	height:150px; 
+}
+
+#logo{
+	float:left;
+	height: auto;
+	width: 400px; 
+}
+ 
+.buttonlist1
+{
+	width:100%;
+}
+
+.button 
+{
+	color:brown;
+	/*determines position of the buttons*/
+	display: inline-block;
+    width: 150px;
+    margin: 10px;
+    text-align: center;
+	margin-top:50px;
+	text-decoration:none;
+	float:left;
+}
+
+.button:hover
+{
+	/*underline text in buttons when hovering over it*/
+	text-decoration:underline;
+}
+
+#slide
+{
+	width: 1400px;
+	height: 600px;
+	background-image: url( ../images/top-bg.jpg);
+	position:relative;
+}
+
+#apply
+{
+	width: 570px;
+	position: relative;
+	top: 350px;
+	left: 0px;
+}	
+
+#apply: hover
+{
+	width: 570px;
+	position: relative;
+	top: 340px;
+	left: 0px;
+}
+	
+#box
+{
+	opacity: 0.9;
+	transition: 0.5s;
+}
+
+#box:hover
+{
+	opacity: 1;
+}
+
+#menu
+{
+	height: 40px;
+	width: 1400px;
+	position: relative;
+	background-color:#45171d;
+	float: left;
+	text-align:center;
+}
+
+.menu2
+{
+	height:40px;
+	background-color: #45171d;
+	color: #ffffff;
+	border:none;
+	text-decoration: none;
+	text-align:center;
+	display:inline-block;
+	font-size:20px;
+	margin: 0 auto;
+	width: 346.5px;
+	transition: 0.5s;
+	cursor: pointer;
+}
+
+.menu2:hover
+{
+	background-color:#6a454a;
+}
+/***********************Vu's css ends here************/
