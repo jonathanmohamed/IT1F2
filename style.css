@@ -4,6 +4,9 @@
 	padding:0;
 }
 /*gives all text the color of #45171d */
+body{
+	font-family: garamond;
+}
 p,h1,h2,h3,ul{
 	color:#45171d;
 }
@@ -83,7 +86,6 @@ p,h1,h2,h3,ul{
 /*end of css for the slide*/
 
 /*small menu*/
-/*small menu*/
 #menu
 {
 	height: 40px;
@@ -94,6 +96,12 @@ p,h1,h2,h3,ul{
 	text-align:center;
 }
 
+#menu a
+{
+	font-family: arial;
+	font-size: 20px;
+}
+	
 .dropdown {
   position: relative;
   display: inline-block;
@@ -234,7 +242,7 @@ p,h1,h2,h3,ul{
 	padding-top:18px;
 	padding-left:30px;
 }
-#footerimg{
+.footerimg{
 	width: 100px;
 	height: 100px;
 }

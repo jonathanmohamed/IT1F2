@@ -13,7 +13,7 @@
                     <a href="index.html"><img src="images/logo.jpg" alt="Logo" class="logo-img"/></a>
                 </div>
                 <div class="buttonlist1">
-                    <a href="news.php" class="button"><h3>News</h3></a>
+                    <a href="news.html" class="button"><h3>News</h3></a>
                     <a href="studStory.html" class="button"><h3>Student Stories</h3></a>
                     <a href="contact.php" class="button"><h3>Contact</h3></a>
                 </div>
