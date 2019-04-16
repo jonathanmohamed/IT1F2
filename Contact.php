@@ -4,7 +4,7 @@
         <title>Contact Form</title>
         <meta charset="UTF-8">
         <link href="style.css" type="text/css" rel="stylesheet"/>
-        <link href="CSS/styleContact.css" type="text/css" rel="stylesheet"/>
+        <link href="styleContact.css" type="text/css" rel="stylesheet"/>
     </head>
     <body>
         <div id="container">
