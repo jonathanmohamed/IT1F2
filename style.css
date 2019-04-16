@@ -10,6 +10,12 @@ body{
 p,h1,h2,h3,ul{
 	color:#45171d;
 }
+/*Makes dutch translations invisible*/
+.nl
+{
+	display:none;
+	visibility: hidden;
+}
 /*This is the div of  the whole page, we gave it a width if 1400px and the height is auto*/
 #container{
 	width: 1400px;
