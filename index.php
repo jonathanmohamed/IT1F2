@@ -75,7 +75,7 @@
                 </div>
             </div>
             <div id="menu">
-                <button class="menu2"><a href="#">About Us</a></button>
+                <button class="menu2"><a href="AboutUs.php">About Us</a></button>
                 <div class="dropdown">
                     <button class="menu2">Programmes</button>
                     <div class="dropdown-content">
