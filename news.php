@@ -83,7 +83,7 @@
                         </div>
                         <div class="newstext">
                             <h3 class="en">Students on Stage “This innovation produces fuel savings of more than 10% for the shipping industry”</h3>
-                            <h3 class="nl">Students on Stage “Deze innovatie levert de scheepvaart een brandstofbesparing van ruim 10% op”</h3>
+                            <h3 class="nl">Students op Stage “Deze innovatie levert de scheepvaart een brandstofbesparing van ruim 10% op”</h3>
                             <br>
                             <br>
                             <br>
