@@ -3,7 +3,7 @@
     <head>
         <title>Studying in Holland</title>
         <meta charset="UTF-8">
-        <link href="style.css" type="text/css" rel="stylesheet"/>
+        <link href="css/style.css" type="text/css" rel="stylesheet"/>
         <link href="css/meins.css" type="text/css" rel="stylesheet"/>
         <style>
             <?php
@@ -67,13 +67,17 @@
                         </form>
                     </div>
                 </div>
-            </div>	
+            </div>
+            <hr>
             <div style="clear:both"></div>
+            <div class="titel">
+                <h1>Why study in Holland?</h1>
+            </div>
             <div class="bilde">
                 <img class="kleine" src="images/holland.jpg" alt="holland.gif">
             </div>
 
-            <div class="detaile en">
+            <div class="detailee en">
                 <p><b>We’ll give you 5 good reasons!</b></p><br>
                 <p>1. Wide range of English programmes<br>
                     Dutch universities offer the largest number of English-taught programmes in continental Europe.<br>
@@ -99,7 +103,7 @@
                 <p>The Dutch government wants to attract knowledge and retain talent. International graduates can therefore apply for an orientation year. <br>
                     This is a residence permit of one year to find a job, or start a business within three years of graduation.</p>
             </div>
-            <div class="detaile nl">
+            <div class="detailee nl">
                 <p><b>Wij geven je 5 goede redenen!</b></p><br>
                 <p>1. Een brede keuze van Engelse programma's<br>
                     Nederlandse universiteiten hebben de grootste hoeveelheid in Engels gegeven programma's in continentaal Europa.
