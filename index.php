@@ -10,11 +10,11 @@
         <div id="container">
             <div class="header">
                 <div class="logo">
-                    <a href="index.html"><img src="images/logo.jpg" alt="Logo" class="logo-img"/></a>
+                    <a href="index.php"><img src="images/logo.jpg" alt="Logo" class="logo-img"/></a>
                 </div>
                 <div class="buttonlist1">
-                    <a href="news.html" class="button"><h3>News</h3></a>
-                    <a href="studStory.html" class="button"><h3>Student Stories</h3></a>
+                    <a href="news.php" class="button"><h3>News</h3></a>
+                    <a href="studStory.php" class="button"><h3>Student Stories</h3></a>
                     <a href="contact.php" class="button"><h3>Contact</h3></a>
                 </div>
             </div>
@@ -29,70 +29,70 @@
                 <div class="dropdown">
                     <button class="menu2">Programmes</button>
                     <div class="dropdown-content">
-                        <a href="music.html">Music</a>
-                        <a href="technology.html">Machenical Engineering</a>
+                        <a href="music.php">Music</a>
+                        <a href="technology.php">Machenical Engineering</a>
                     </div>
                 </div>
                 <div class="dropdown">
                     <button class="menu2">International Students</button>
                     <div class="dropdown-content">
-                        <a href="practicalinformation.html">Practical Informations</a>
-                        <a href="livingcost.html">Living Cost</a>
-                        <a href="whyholland.html">Why Holland?</a>
+                        <a href="practicalinformation.php">Practical Informations</a>
+                        <a href="livingcost.php">Living Cost</a>
+                        <a href="whyholland.php">Why Holland?</a>
                     </div>
                 </div>
-                <button class="menu2"><a href="upcomingevent.html">Upcoming Events</a></button>
+                <button class="menu2"><a href="upcomingevent.php">Upcoming Events</a></button>
             </div>
 
             <div id ="wrapper">	
                 <div id="middle">
                     <div class="rectangles">
                         <div id="img1">
-                            <a href="music.html"><img src ="images/jazz0.jpg" alt ="Students performing with musical instruments"></a>
+                            <a href="music.php"><img src ="images/jazz0.jpg" alt ="Students performing with musical instruments"></a>
                         </div>
                         <div id="txt1">
-                            <a href="music.html"><h3 class="h3Body">Explore</h3></a>
+                            <a href="music.php"><h3 class="h3Body">Explore</h3></a>
                             <div class="moveRight">
-                                <a href="music.html"> <h2 class="h2Body"> Our music programme </h2> </a>
+                                <a href="music.php"> <h2 class="h2Body"> Our music programme </h2> </a>
                             </div>
                         </div>
                         <div id="arrow1">
-                            <a href="music.html"><img src="images/arrowSmall.png" alt="two right directional arrows"></a>
+                            <a href="music.php"><img src="images/arrowSmall.png" alt="two right directional arrows"></a>
                         </div>
                     </div>
                     <hr>
                     <div class="rectangles">
                         <div id="txt2">
-                            <a href="technology.html"><h2 class="h2Body">Explore</h2></a>
+                            <a href="technology.php"><h2 class="h2Body">Explore</h2></a>
                             <div class="moveRight">
-                                <a href="technology.html"><h3 class="h3Body">Our mechnical engineering</h3></a>
+                                <a href="technology.php"><h3 class="h3Body">Our mechnical engineering</h3></a>
                             </div>
 
                             <div id="arrow2">
-                                <a href="technology.html"><img src="images/arrowSmall.png" alt="two right directional arrows"></a>
+                                <a href="technology.php"><img src="images/arrowSmall.png" alt="two right directional arrows"></a>
                             </div>
                             <div id="txt2i">
-                                <a href="technology.html"><h2 class="removeTopSpace h2Body">programme</h2></a>
+                                <a href="technology.php"><h2 class="removeTopSpace h2Body">programme</h2></a>
                             </div>
                         </div>
                         <div id="img2">
-                            <a href="technology.html"><img src="images/Lab0.jpg" alt="Students in a Lab"></a>
+                            <a href="technology.php"><img src="images/Lab0.jpg" alt="Students in a Lab"></a>
                         </div>
                     </div>
                     <hr>
                     <div class="rectangles">
                         <div id="img3">
-                            <a href="studstory.html"><img src ="images/student0.jpg" alt="Picture of two students"></a>
+                            <a href="studstory.php"><img src ="images/student0.jpg" alt="Picture of two students"></a>
                         </div>
                         <div id="txt3">
-                            <a href="studstory.html"><h2 class="h2Body">Our student's stories</h2></a>
+                            <a href="studstory.php"><h2 class="h2Body">Our student's stories</h2></a>
                         </div>
 
                         <div id="arrow3">
-                            <a href="studstory.html"><img src="images/arrowSmall.png" alt="two right directional arrows"></a>
+                            <a href="studstory.php"><img src="images/arrowSmall.png" alt="two right directional arrows"></a>
                         </div>
                         <div id="txt3i">
-                            <a href="studstory.html"><h3 class="h3Body">Read more</h3></a>
+                            <a href="studstory.php"><h3 class="h3Body">Read more</h3></a>
                         </div>
 
                     </div>
@@ -126,9 +126,9 @@
                     </div>
                 </div>
                 <div class="footerleft2"> 
-                    <p><a href="jobs.html">&nbsp;&nbsp;Jobs&nbsp;&nbsp;</a>
-                        <a href="legal.html">&nbsp;Legal Notices&nbsp;&nbsp;</a>
-                        <a href="privacy.html">&nbsp;&nbsp;Privacy Notices</a></p>
+                    <p><a href="jobs.php">&nbsp;&nbsp;Jobs&nbsp;&nbsp;</a>
+                        <a href="legal.php">&nbsp;Legal Notices&nbsp;&nbsp;</a>
+                        <a href="privacy.php">&nbsp;&nbsp;Privacy Notices</a></p>
                 </div>
             </div>			
         </div>

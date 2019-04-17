@@ -10,15 +10,15 @@
         <div id="container">
             <div class="header">
                 <div class="logo">
-                    <a href="index.html">
+                    <a href="index.php">
                         <img src="images/logo.jpg" alt="Logo" class="logo-img"/>
                     </a>
                 </div>
                 <div class="buttonlist1">
-                    <a href="news.html" class="button">
+                    <a href="news.php" class="button">
                         <h3>News</h3>
                     </a>
-                    <a href="studStory.html" class="button">
+                    <a href="studStory.php" class="button">
                         <h3>Student Stories</h3>
                     </a>
                     <a href="contact.php" class="button">
@@ -40,14 +40,14 @@
                     in this small corner of Europe, you’ve probably asked yourself, How much is it going to cost<br/>
                     to live there?. This is a huge question on your mind while applying to schools, and even after<br/> 
                     reading about it from many sources online, You still wasn’t sure how much it would be.
-                    <a href=livingcost.html>
+                    <a href=livingcost.php>
                         <i>Read more</i>
                     </a>
                 </p>
                 <h2>Why Holland</h2>
                 <p>
                     <i>Why Holland? We’ll give you 5 good reasons!</i>
-                    <a href=whyholland.html>
+                    <a href=whyholland.php>
                         <i>Read more</i>
                     </a>
                 </p>
@@ -88,14 +88,14 @@
                     leven. Waarschijnlijk is dit vaak een belangrijke vraag als je voor scholen gaat inschrijven,
                     en zelfs nadat je vele bronnen online gelezen hebt, heb je waarschijnlijk hoeveel het nou 
                     eigenlijk gaat kosten.
-                    <a href=livingcost.html>
+                    <a href=livingcost.php>
                         <i>Lees meer</i>
                     </a>
                 </p>
                 <h2>Waarom Nederland</h2>
                 <p>
                     <i>Waarom Nederland? Wij geven je 5 goede reden!</i>
-                    <a href=whyholland.html>
+                    <a href=whyholland.php>
                         <i>Lees meer</i>
                     </a>
                 </p>
@@ -168,9 +168,9 @@
                 </div>
                 <div class="footerleft2"> 
                     <p>
-                        <a href="jobs.html">&nbsp;&nbsp;Jobs&nbsp;&nbsp;</a>
-                        <a href="legal.html">&nbsp;Legal Notices&nbsp;&nbsp;</a>
-                        <a href="privacy.html">&nbsp;&nbsp;Privacy Notices</a>
+                        <a href="jobs.php">&nbsp;&nbsp;Jobs&nbsp;&nbsp;</a>
+                        <a href="legal.php">&nbsp;Legal Notices&nbsp;&nbsp;</a>
+                        <a href="privacy.php">&nbsp;&nbsp;Privacy Notices</a>
                     </p>
                 </div>
             </div>			

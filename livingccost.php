@@ -10,15 +10,15 @@
         <div id="container">
             <div class="header">
                 <div class="logo">
-                    <a href="index.html">
+                    <a href="index.php">
                         <img src="images/logo.jpg" alt="Logo" class="logo-img"/>
                     </a>
                 </div>
                 <div class="buttonlist1">
-                    <a href="news.html" class="button">
+                    <a href="news.php" class="button">
                         <h3>News</h3>
                     </a>
-                    <a href="studStory.html" class="button">
+                    <a href="studStory.php" class="button">
                         <h3>Student Stories</h3>
                     </a>
                     <a href="contact.php" class="button">
@@ -133,9 +133,9 @@
                     </div>
                 </div>
                 <div class="footerleft2"> 
-                    <p><a href="jobs.html">&nbsp;&nbsp;Jobs&nbsp;&nbsp;</a>
-                        <a href="legal.html">&nbsp;Legal Notices&nbsp;&nbsp;</a>
-                        <a href="privacy.html">&nbsp;&nbsp;Privacy Notices</a></p>
+                    <p><a href="jobs.php">&nbsp;&nbsp;Jobs&nbsp;&nbsp;</a>
+                        <a href="legal.php">&nbsp;Legal Notices&nbsp;&nbsp;</a>
+                        <a href="privacy.php">&nbsp;&nbsp;Privacy Notices</a></p>
                 </div>
             </div>			
         </div>
