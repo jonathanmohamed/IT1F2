@@ -1,10 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
     <head>
         <title>Arcadia University of Arts and Technology</title>
         <meta charset="UTF-8">
         <link href="css/style.css" type="text/css" rel="stylesheet"/>
-        <link href="css/timetable.css" type="text/css" rel="stylesheet"/> 
         <style>
             <?php
             if (isset($_POST['submit'])) {
@@ -67,84 +66,36 @@
                         </form>
                     </div>
                 </div>
-            </div>
-            <div class="timetableBox">
-                <h1>Public flight API</h1>
-                <?php
-                $app_id = '3a1d60d1';
-                $app_key = '386019f1971ba60c7c77cf28758edaac';
-                $hour = date('H');
-                $hourTo = date('H',time()+3600);
-                $minute = date('i');
-                $year = date('Y');
-                $month = date('m');
-                $day = date('d');
-                $fromDateTime = $year."-".$month."-".$day."T".$hour."%3A".$minute."%3A00";
-                $toDateTime = $year."-".$month."-".$day."T".$hourTo."%3A".$minute."%3A00";
-                $curl = curl_init("https://api.schiphol.nl/public-flights/flights?fromDateTime=".$fromDateTime."&toDateTime=".$toDateTime."&searchDateTimeField=expectedTimeBoarding");
-                curl_setopt_array($curl, array(
-                    CURLOPT_RETURNTRANSFER => true,
-                    CURLOPT_ENCODING => '',
-                    CURLOPT_MAXREDIRS => 10,
-                    CURLOPT_TIMEOUT => 30,
-                    CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
-                    CURLOPT_CUSTOMREQUEST => 'GET',
-                    CURLOPT_HTTPHEADER => array(
-                        'resourceversion: v4',
-                        'app_id: ' . $app_id,
-                        'app_key: ' . $app_key,
-                        'Accept: application/json'
-                    )
-                ));
-                $response = curl_exec($curl);
-                $http_code = curl_getinfo($curl, CURLINFO_HTTP_CODE);
-                curl_close($curl);
+            </div>	
 
-                if ($http_code != 200) {
-                    echo $http_code . ' Error when calling the public flight api: ' . $response;
-                } else {
-                    $array = json_decode($response, true);
-                    echo '<table>';
-                    echo '<tr>';
-                    echo '<th>Flight number</th>';
-                    echo '<th>Flight date</th>';
-                    echo '<th>Depature time</th>';
-                    echo '<th>Destination</th>';
-                    echo '</tr>';
-                    foreach ($array['flights'] as $flight) {
-                        echo '<tr>';
-                        echo '<td>' . $flight['flightName'] . '</td>';
-                        echo '<td>' . (string) $flight['scheduleDate'] . '</td>';
-                        echo '<td>' . (string) $flight['scheduleTime'] . '</td>';
-                        foreach ($flight['route'] as $destination) {
-//                            echo '<td>' . $destination[0] . '</td>';
-                            $code = $destination[0];
-                            $curl = curl_init('https://api.schiphol.nl/public-flights/destinations/' . $code);
-                            curl_setopt_array($curl, array(
-                                CURLOPT_RETURNTRANSFER => true,
-                                CURLOPT_ENCODING => '',
-                                CURLOPT_MAXREDIRS => 10,
-                                CURLOPT_TIMEOUT => 30,
-                                CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
-                                CURLOPT_CUSTOMREQUEST => 'GET',
-                                CURLOPT_HTTPHEADER => array(
-                                    'resourceversion: v4',
-                                    'app_id: ' . $app_id,
-                                    'app_key: ' . $app_key,
-                                    'Accept: application/json'
-                                )
-                            ));
-                            $responseCity = curl_exec($curl);
-                            curl_close($curl);
-                            $city = json_decode($responseCity, true);
-                            echo '<td>' . (string) $city['city'] . '</td>';
-                        }
-                        echo '</tr>';
-                    }
-                }
-                echo '</table>';
-                ?>
-            </div>
+            <div class="about">
+                <fieldset>
+                    <legend>
+                        <h1 class="en">About Arcadia University</h1>
+                        <h1 class="nl">Over Arcadia Hogeschool</h1>
+                    </legend>
+                    <br>
+                    <h2 class="en">Arcadia University. Pushing Boundaries.</h2>
+                    <h2 class="nl">Arcadia Hogeschool. Grensen Verleggen.</h2>
+
+                    <p class="en"> <b> By pushing boundaries, there is no telling what you might accomplish. That is why we challenge students, staff and partners every day to discover and develop their talents, as part of a journey that transcends the limits of their own professional field and immediate environment.</b> </p>
+                    <p class="nl"> <b> Door grenzen te verleggen, is geen lat te hoog. Daarom dagen wij onze studenten, personeel en partners elke dag uit om hun talenten uit verder te ontdekken en ontwikkelen, als deel van de tocht om de grenzen van hun eigen professionele vakgebied en omgeving te verleggen.</b> </p>
+
+                    <p class="en"> Our multi-campus university of arts and science is firmly rooted in the northern part of the Netherlands where we are based, while at the same time maintaining a strong international focus. We are always looking for new ways to successfully integrate education, arts, research and the latest developments in the professional world. Our students, lecturers and researchers work together in small teams on real-life assignments and share their innovative ideas in practice. Our courses incorporate all the latest trends and developments in the relevant sectors and industries, both at a national as well as an international level.
+
+                        The future calls for enterprising and resourceful professionals who know how to translate their knowledge into innovative solutions and who have the vision and courage needed to look beyond their own professional field. 
+
+                        That is the strength of Arcadia University of arts and science: in a rapidly changing world, our people make the impossible possible. 
+                    </p>
+                    <p class="nl"> 
+                        Onze multi-campus hogeschool van kunst en wetenschap is sterk ingeworteld in het noorderlijk deel van Nederland waar we gevestigd zijn, terwijl we gelijkertijd een sterke internationale focus vasthouden. We zijn altijd op zoek naar nieuwe manieren om educatie, kunst, onderzoek en de laattste ontwikkelingen in de professionele wereld te integren in onze programmas. Onze studenten, lectoraten en onderzoekers werken samen in kleine groepen op opdrachten en innovatieve ideeën toe te brengen in de praktijk. Onze opleidingen passen de laatste trends en ontwikkelingen in de hun sectoren en industrieën toe, niet alleen op een nationaal maar ook internationaal niveau.
+
+                        De toekomst eist voor ondernemende en vindingrijke vakmannen wie weten hoe ze hun kennis moeten toepassen in innovatieve oplossing en wie visie en moed hebben om verder te kijken dan hun eigen professionele vakgebied.
+
+                        Dat is de sterkte van Arcadia Hogeschool van kunst en wetenschap: in een snel veranderende wereld, ons personeel maakt het onmogelijke mogelijk.
+                    </p>
+                </fieldset>
+            </div>	
             <div class="footer">
                 <div class="footerleft1"> 
                     <div class="footerimg1">
@@ -159,8 +110,7 @@
                     <div class="footerimg4">
                         <a id="footerimg" href="https://instagram.com"><img src="images/instagram.png" alt="instagram"/></a>
                     </div>												      
-                </div>
-
+                </div>		
                 <div class="footerright"> 
                     <div class="footerimg2">
                         <a id="footerimg" href="https://www.acbsp.org/"><img src="images/acbsp.png" alt="acbsp"/></a>
@@ -172,17 +122,15 @@
                         <a id="footerimg" href="https://www.nvao.net"><img src="images/nvao.png" alt="nvao"/></a>
                     </div>
                 </div>
-                <div class="footerleft2 en"> 
-                    <p><a href="jobs.php">&nbsp;&nbsp;Jobs&nbsp;&nbsp;</a>
+                <div class="footerleft2"> 
+                    <p class="en"><a href="jobs.php">&nbsp;&nbsp;Jobs&nbsp;&nbsp;</a>
                         <a href="legal.php">&nbsp;Legal Notices&nbsp;&nbsp;</a>
                         <a href="privacy.php">&nbsp;&nbsp;Privacy Notices</a></p>
-                </div>
-                <div class="footerleft2 nl"> 
-                    <p><a href="jobs.php">&nbsp;&nbsp;Banen&nbsp;&nbsp;</a>
+                    <p class="nl"><a href="jobs.php">&nbsp;&nbsp;Banen&nbsp;&nbsp;</a>
                         <a href="legal.php">&nbsp;Wettelijke mededelingen&nbsp;&nbsp;</a>
-                        <a href="privacy.php">&nbsp;&nbsp;Privacykennisgevingen</a></p>
+                        <a href="privacy.php">&nbsp;&nbsp;Privacy mededelingen&nbsp</a></p>
                 </div>
-            </div>
+            </div>			
         </div>
     </body>
-</html>  
+</html>
