@@ -3,7 +3,7 @@
     <head>
         <title>Studying in Holland</title>
         <meta charset="UTF-8">
-        <link href="style.css" type="text/css" rel="stylesheet"/>
+        <link href="css/style.css" type="text/css" rel="stylesheet"/>
         <link href="css/meins.css" type="text/css" rel="stylesheet"/>
         <style>
             <?php
