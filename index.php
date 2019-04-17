@@ -91,7 +91,7 @@
                         <a href="whyholland.php">Why Holland?</a>
                     </div>
                 </div>
-                <button class="menu2"><a href="upcomingevent.php">Upcoming Events</a></button>
+                <button class="menu2"><a href="events/upcomingevents.php">Upcoming Events</a></button>
             </div>
 
             <div id ="wrapper">	
