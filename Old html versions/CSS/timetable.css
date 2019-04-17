@@ -1,0 +1,30 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+.timetableBox
+{
+    margin-left: 20px;
+    margin-bottom: 50px;
+}
+.timetable
+{
+    border:1px solid;
+    border-color:black;
+    border-collapse: collapse;
+    background-color: blue;
+    
+}
+.timetable td,th
+{   
+    padding: 2px;
+    text-align: center;
+}
+.timetable tr th
+{
+    border-bottom:1px solid black;
+    min-width: 100px;
+}
+

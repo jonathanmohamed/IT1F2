@@ -110,9 +110,10 @@
                 </ul>
                 </p>
             </div>
+			
+            <div style="clear:both"></div>
             <hr>
 
-            <div style="clear:both"></div>
 
             <div class="titel">
                 <h1 class="en">TRADITIONAL MUSIC INSTRUMENT BUILDING</h1>
@@ -170,7 +171,6 @@
                 </ul>
                 </p>
             </div>
-            <hr>
             <div class="footer">
                 <div class="footerleft1">
                     <div class="footerimg1">
