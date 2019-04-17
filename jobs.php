@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <title>Arcadia University of Arts and Technology</title>
         <meta charset="UTF-8">
