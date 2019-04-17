@@ -146,7 +146,7 @@
                             require_once "lib/TurboApiClient.php";
                             $email = new Email();
                             $email->setFrom("Arcadiauniversityat@gmail.com");
-                            $email->setToList("thomas_koops@hotmail.com");
+                            $email->setToList("Arcadiauniversityat@gmail.com");
                             //$email->setCcList("");
                             //$email->setBccList("");	
                             $email->setSubject("Question from " . $name);
