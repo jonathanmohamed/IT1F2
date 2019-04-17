@@ -41,7 +41,7 @@
                     <a href="index.php"><img src="images/logo.jpg" alt="Logo" class="logo-img"/></a>
                 </div>
                 <div class="buttonlist1 en">
-                    <a href="news.php" class="button"><h3 class="en">News</h3></a>
+                    <a href="news.html" class="button"><h3 class="en">News</h3></a>
                     <a href="studStory.php" class="button"><h3 class="en">Student Stories</h3></a>
                     <a href="contact.php" class="button"><h3 class="en">Contact</h3></a>
                     <div class="button">

@@ -68,9 +68,10 @@
                     </div>
                 </div>
             </div>
+			
             <div style="clear:both"></div>
-
             <hr>
+			
             <div class="titel">
                 <h1 class="en">ELECTRONIC MUSIC</h1>
                 <h1 class="nl">ELEKTRONISCHE MUZIEK</h1>

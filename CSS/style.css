@@ -42,7 +42,7 @@ p,h1,h2,h3,ul{
     margin: 10px;
     text-align: center;
 	margin-top:50px;
-	text-decoration:none;
+	text-decoration:none;	
 }
 .button:hover{
 	/*underline text in buttons when hovering over it*/
@@ -64,7 +64,7 @@ p,h1,h2,h3,ul{
 	position: relative;
 	top: 310px;
 	left: 0px;
-}
+}	
 
 #apply:hover
 {
@@ -73,7 +73,7 @@ p,h1,h2,h3,ul{
 	top: 305px;
 	left: 0px;
 }
-
+	
 #box
 {
 	opacity: 0.9;
@@ -102,7 +102,7 @@ p,h1,h2,h3,ul{
 	font-family: arial;
 	font-size: 20px;
 }
-
+	
 .dropdown {
   position: relative;
   display: inline-block;
@@ -126,7 +126,7 @@ p,h1,h2,h3,ul{
   font-size: 20px;
 }
 
-.dropdown:hover .dropdown-content
+.dropdown:hover .dropdown-content 
 {
 	display: block;
 }
@@ -191,7 +191,7 @@ p,h1,h2,h3,ul{
   font-size: 20px;
 }
 
-#dropdown:hover #dropdown-content
+#dropdown:hover #dropdown-content 
 {
 	display: block;
 }
@@ -279,9 +279,6 @@ a{
 	color: white;
 	text-decoration: none;
 }
-#blueLink a{
-    color:blue;
-}
 /******* Jonathan's Footer's CSS End Here******/
 
 
@@ -297,7 +294,4 @@ a{
 	width: 1200px;
 	height:400px;
 	text-align:center;
-}
-h1.center{
-	text-align: center;
 }
