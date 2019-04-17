@@ -53,7 +53,7 @@
                         </form>
                     </div>
                 </div>
-                <hr>
+                
                 <div class="buttonlist1 nl">
                     <a href="news.php" class="button"><h3>Nieuws</h3></a>
                     <a href="studStory.php" class="button"><h3>Belevingen Studenten</h3></a>
@@ -69,6 +69,7 @@
                     </div>
                 </div>
             </div>
+            <hr>
             <div id="jobs">
                 <h1>Privacy statement</h1>
                 <div id="privacy">

@@ -53,7 +53,7 @@
                         </form>
                     </div>
                 </div>
-                <hr>
+                
                 <div class="buttonlist1 nl">
                     <a href="news.php" class="button"><h3>Nieuws</h3></a>
                     <a href="studStory.php" class="button"><h3>Belevingen Studenten</h3></a>
@@ -68,7 +68,8 @@
                         </form>
                     </div>
                 </div>
-            </div>	
+            </div>
+            <hr>
             <div class="legal en">
                 <h1>Legal Notices</h1>
                 <p>Although every effort has been taken to ensure the accuracy of the information on the website, we cannot guarantee that the content and the information contained in it is always up-to-date, complete or true. Accordingly, no rights can be derived from the contents of the website. Neither can any rights be derived from information offered on websites accessed through links on the Arcadia University of Arts and Science,(Arcadia UAS) website.</p>
