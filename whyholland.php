@@ -67,8 +67,12 @@
                         </form>
                     </div>
                 </div>
-            </div>	
+            </div>
+            <hr>
             <div style="clear:both"></div>
+            <div class="titel">
+                <h1>Living Cost</h1>
+            </div>
             <div class="bilde">
                 <img class="kleine" src="images/holland.jpg" alt="holland.gif">
             </div>
