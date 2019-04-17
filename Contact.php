@@ -68,6 +68,7 @@
                     </div>
                 </div>
             </div>
+            <hr>
             <div class="contact-form">
                 <h1>Contact us</h1>
                 <form action="<?php echo htmlentities($_SERVER['PHP_SELF']); ?>" method="post">
