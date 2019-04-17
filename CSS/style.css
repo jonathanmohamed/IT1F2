@@ -216,7 +216,7 @@ p,h1,h2,h3,ul{
 {
 	background-color:#6a454a;
 }
-/*end of small menu css*/
+/*end of small menu*/
 /*begin of footer*/
 /******* Jonathan's Footer's CSS Starts Here******/
 .footer{
@@ -278,6 +278,9 @@ a{
 	font-family:Arial;
 	color: white;
 	text-decoration: none;
+}
+#blueLink a{
+    color:blue;
 }
 /******* Jonathan's Footer's CSS End Here******/
 
