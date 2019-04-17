@@ -1,0 +1,55 @@
+
+.body{
+	width: 1200px;
+	height: 2500px;
+	margin: 0px auto;
+}
+.titel{
+	width: 1070px;
+	height: 100px;
+	padding-left: 100px;
+	padding-top: 30px;
+}
+.bild{
+	width: 500px;
+	height: 677px;
+	padding-left: 100px;
+	float: left;
+	padding-top: 23px;
+}
+.detail{
+	width: 500px;
+	height: 600px;
+	padding-right: 100px;
+	float: right;
+}
+
+.klein{
+	width: 450px;
+	height: 380px;
+}
+.detaile{
+	width: 1200px;
+	height: 600px;
+}
+.detaile a{
+	color: blue;
+}
+.kleine{
+	width: 600px;
+	height: 450px;
+}
+.bilde{
+	width: 1200px;
+	height: 455px;
+	margin: 0px auto;
+}
+.detailee{
+	width: 1200px;
+	height: auto;
+        margin: 20px auto;
+}
+.noedit{
+	color:yellow;
+	text-decoration: none;
+}

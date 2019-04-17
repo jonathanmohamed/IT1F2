@@ -26,6 +26,7 @@
 				<a href="contact.php" class="button"><h3>Contact</h3></a>
 			</div>
 		</div>
+            <hr>
 	<!-- your code here -->		
 		<div id="jobs">
 		<h1>Privacy statement</h1>

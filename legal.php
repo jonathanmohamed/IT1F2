@@ -25,6 +25,7 @@
 				<a href="contact.php" class="button"><h3>Contact</h3></a>
 			</div>
 		</div>
+            <hr>
 	<!-- your code here -->	
 		<div class="legal">
 			<h1>Legal Notices</h1>
