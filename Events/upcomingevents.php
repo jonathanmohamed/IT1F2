@@ -74,12 +74,12 @@
             
             <div class="header">
                 <div class="logo">
-                    <a href="index.php"><img src="../images/logo.jpg" alt="Logo" class="logo-img"/></a>
+                    <a href="../index.php"><img src="../images/logo.jpg" alt="Logo" class="logo-img"/></a>
                 </div>
                 <div class="buttonlist1 en">
-                    <a href="news.html" class="button"><h3 class="en">News</h3></a>
-                    <a href="studStory.php" class="button"><h3 class="en">Student Stories</h3></a>
-                    <a href="contact.php" class="button"><h3 class="en">Contact</h3></a>
+                    <a href="../news.php" class="button"><h3 class="en">News</h3></a>
+                    <a href="../studStory.php" class="button"><h3 class="en">Student Stories</h3></a>
+                    <a href="../contact.php" class="button"><h3 class="en">Contact</h3></a>
                     <div class="button">
                         <form action="<?php echo htmlentities($_SERVER['PHP_SELF']); ?>" method="POST">
                             <select name="language">
@@ -91,9 +91,9 @@
                     </div>
                 </div>
                 <div class="buttonlist1 nl">
-                    <a href="news.php" class="button"><h3>Nieuws</h3></a>
-                    <a href="studStory.php" class="button"><h3>Belevingen Studenten</h3></a>
-                    <a href="contact.php" class="button"><h3>Contact</h3></a>
+                    <a href="../news.php" class="button"><h3>Nieuws</h3></a>
+                    <a href="../studStory.php" class="button"><h3>Belevingen Studenten</h3></a>
+                    <a href="../contact.php" class="button"><h3>Contact</h3></a>
                     <div class="button">
                         <form action="<?php echo htmlentities($_SERVER['PHP_SELF']); ?>" method="POST">
                             <select name="language">

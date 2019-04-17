@@ -91,11 +91,8 @@
                         <a href="whyholland.php">Why Holland?</a>
                     </div>
                 </div>
-<<<<<<< HEAD
-                <button class="menu2"><a href="events/upcomingevent.php">Upcoming Events</a></button>
-=======
+<!--<<<<<<< HEAD-->
                 <button class="menu2"><a href="events/upcomingevents.php">Upcoming Events</a></button>
->>>>>>> 1ab1c687223c8cc07427be42228ac911373874b8
             </div>
 
             <div id ="wrapper">	
