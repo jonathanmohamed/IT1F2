@@ -116,10 +116,10 @@
                         <a id="footerimg" href="https://www.facebook.com/ArcadiaUniversityAT/"><img src="images/facebook.png" alt="facebook"/></a>
                     </div>
                     <div class="footerimg1">
-                        <a id="footerimg" href="https://youtube.com"><img src="images/youtube.png" alt="youtube"/></a>
+                        <a id="footerimg" href="https://www.youtube.com/?gl=NL"><img src="images/youtube.png" alt="youtube"/></a>
                     </div>
                     <div class="footerimg4">
-                        <a id="footerimg" href="https://instagram.com"><img src="images/instagram.png" alt="instagram"/></a>
+                        <a id="footerimg" href="https://www.instagram.com/arcadiauniversityat/"><img src="images/instagram.png" alt="instagram"/></a>
                     </div>												      
                 </div>		
                 <div class="footerright"> 
@@ -136,10 +136,10 @@
                 <div class="footerleft2"> 
                     <p class="en"><a href="jobs.php">&nbsp;&nbsp;Jobs&nbsp;&nbsp;</a>
                         <a href="legal.php">&nbsp;Legal Notices&nbsp;&nbsp;</a>
-                        <a href="privacy.php">&nbsp;&nbsp;Privacy Notices</a></p>
+                        
                     <p class="nl"><a href="jobs.php">&nbsp;&nbsp;Banen&nbsp;&nbsp;</a>
                         <a href="legal.php">&nbsp;Wettelijke mededelingen&nbsp;&nbsp;</a>
-                        <a href="privacy.php">&nbsp;&nbsp;Privacy mededelingen&nbsp</a></p>
+                        
                 </div>
             </div>			
         </div>

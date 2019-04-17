@@ -180,12 +180,12 @@
                         </a>
                     </div>
                     <div class="footerimg1">
-                        <a class="footerimg" href="https://youtube.com">
+                        <a class="footerimg" href="https://www.youtube.com/?gl=NL">
                             <img src="images/youtube.png" alt="youtube"/>
                         </a>
                     </div>
                     <div class="footerimg4">
-                        <a class="footerimg" href="https://instagram.com">
+                        <a class="footerimg" href="https://www.instagram.com/arcadiauniversityat/">
                             <img src="images/instagram.png" alt="instagram"/>
                         </a>
                     </div>												      
@@ -210,12 +210,12 @@
                 <div class="footerleft2 en"> 
                     <p><a href="jobs.php">&nbsp;&nbsp;Jobs&nbsp;&nbsp;</a>
                         <a href="legal.php">&nbsp;Legal Notices&nbsp;&nbsp;</a>
-                        <a href="privacy.php">&nbsp;&nbsp;Privacy Notices</a></p>
+                        
                 </div>
                 <div class="footerleft2 nl"> 
                     <p><a href="jobs.php">&nbsp;&nbsp;Banen&nbsp;&nbsp;</a>
                         <a href="legal.php">&nbsp;Wettelijke mededelingen&nbsp;&nbsp;</a>
-                        <a href="privacy.php">&nbsp;&nbsp;Privacykennisgevingen</a></p>
+                        
                 </div>
             </div>			
         </div>
