@@ -74,7 +74,7 @@
                     <a id="box" href="https://student.sl-cloud.nl/"> <img src="images/apply.png" alt="Apply Now" /></a>
                 </div>
             </div>
-            <div id="menu">
+             <div id="menu" class="en">
                 <button class="menu2"><a href="AboutUs.php">About Us</a></button>
                 <div class="dropdown">
                     <button class="menu2">Programmes</button>
@@ -91,11 +91,30 @@
                         <a href="whyholland.php">Why Holland?</a>
                     </div>
                 </div>
-<!--<<<<<<< HEAD-->
                 <button class="menu2"><a href="events/upcomingevents.php">Upcoming Events</a></button>
             </div>
 
-            <div id ="wrapper">	
+            <div id="menu" class="nl">
+                <button class="menu2"><a href="AboutUs.php">Over ons</a></button>
+                <div class="dropdown">
+                    <button class="menu2">Opleidingen</button>
+                    <div class="dropdown-content">
+                        <a href="music.php">Muziek</a>
+                        <a href="technology.php">Werktuigbouwkunde</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="menu2">Internationale Studenten</button>
+                    <div class="dropdown-content">
+                        <a href="practicalinformation.php">Handige informatie</a>
+                        <a href="livingcost.php">Woonkosten</a>
+                        <a href="whyholland.php">Waarom Nederland?</a>
+                    </div>
+                </div>
+                <button class="menu2"><a href="events/upcomingevents.php">Opkomende evenementen</a></button>
+            </div>
+
+            <div id ="wrapper" class="en">	
                 <div id="middle">
                     <div class="rectangles">
                         <div id="img1">
@@ -144,6 +163,60 @@
                         </div>
                         <div id="txt3i">
                             <a href="studstory.php"><h3 class="h3Body">Read more</h3></a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div id="wrapper" class="nl">  
+                <div id="middle">
+                    <div class="rectangles">
+                        <div id="img1">
+                            <a href="music.php"><img src ="images/jazz0.jpg" alt ="Students performing with musical instruments"></a>
+                        </div>
+                        <div id="txt1">
+                            <a href="music.php"><h3 class="h3Body">Ontdek</h3></a>
+                            <div class="moveRight">
+                                <a href="music.php"> <h2 class="h2Body"> Onze muziek opleiding </h2> </a>
+                            </div>
+                        </div>
+                        <div id="arrow1">
+                            <a href="music.php"><img src="images/arrowSmall.png" alt="two right directional arrows"></a>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="rectangles">
+                        <div id="txt2">
+                            <a href="technology.php"><h2 class="h2Body">Ontdek</h2></a>
+                            <div class="moveRight">
+                                <a href="technology.php"><h3 class="h3Body">Onze werktuigbouwkunde</h3></a>
+                            </div>
+
+                            <div id="arrow2">
+                                <a href="technology.php"><img src="images/arrowSmall.png" alt="two right directional arrows"></a>
+                            </div>
+                            <div id="txt2i">
+                                <a href="technology.php"><h2 class="removeTopSpace h2Body">opleiding</h2></a>
+                            </div>
+                        </div>
+                        <div id="img2">
+                            <a href="technology.php"><img src="images/Lab0.jpg" alt="Students in a Lab"></a>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="rectangles">
+                        <div id="img3">
+                            <a href="studstory.php"><img src ="images/student0.jpg" alt="Picture of two students"></a>
+                        </div>
+                        <div id="txt3">
+                            <a href="studstory.php"><h2 class="h2Body">Belevingen van studenten </h2></a>
+                        </div>
+
+                        <div id="arrow3">
+                            <a href="studstory.php"><img src="images/arrowSmall.png" alt="two right directional arrows"></a>
+                        </div>
+                        <div id="txt3i">
+                            <a href="studstory.php"><h3 class="h3Body">Lees meer</h3></a>
                         </div>
 
                     </div>
