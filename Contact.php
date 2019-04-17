@@ -68,6 +68,7 @@
                     </div>
                 </div>
             </div>
+            <hr>
             <div class="contact-form">
                 <h1>Contact us</h1>
                 <form action="<?php echo htmlentities($_SERVER['PHP_SELF']); ?>" method="post">
@@ -85,7 +86,7 @@
                         <li>What are your questions?*</li>
                         <li><textarea class="inputStyle questionBox" name="question" placeholder="Tell us what you want to know about"></textarea></li>
                         <li>
-                            <input type="submit" name="submit" value="Send">
+                            <input type="submit" name="send" value="Send">
                             <input type="reset" name="reset" value="Reset">
                         </li>
                         <li>* is required</li>
@@ -94,14 +95,14 @@
                     <div class="error">
                         <ul>
                             <?php
-                            if (isset($_POST['submit'])) {
+                            if (isset($_POST['send'])) {
                                 if (empty($_POST['name'])) {
                                     echo "<li>*Please give us your name.</li>";
                                 } else {
                                     $name = $_POST['name'];
                                 }
                             }
-                            if (isset($_POST['submit'])) {
+                            if (isset($_POST['send'])) {
                                 if (empty($_POST['phonenum'])) {
                                     $phoneNum = "Undefined";
                                 } else {
@@ -113,7 +114,7 @@
                                     }
                                 }
                             }
-                            if (isset($_POST['submit'])) {
+                            if (isset($_POST['send'])) {
                                 if (empty($_POST['email'])) {
                                     echo "<li>*Please enter your email address.</li>";
                                 } else {
@@ -124,7 +125,7 @@
                                     }
                                 }
                             }
-                            if (isset($_POST['submit'])) {
+                            if (isset($_POST['send'])) {
                                 $EU_check = $_POST['student'];
                             }
                             if (isset($_POST['submit'])) {
@@ -136,15 +137,16 @@
                             }
                             $sendmail = TRUE;
                             ?>
+                            
                         </ul>
                     </div>
                     <div class="invis">
                         <?php
-                        if (isset($_POST['submit']) AND ! empty($_POST['name']) AND ! empty($_POST['email']) AND ! empty($_POST['question']) AND $sendmail AND $phoneNum != "Error") {
+                        if (isset($_POST['send']) AND ! empty($_POST['name']) AND ! empty($_POST['email']) AND ! empty($_POST['question']) AND $sendmail AND $phoneNum != "Error") {
                             require_once "lib/TurboApiClient.php";
                             $email = new Email();
                             $email->setFrom("Arcadiauniversityat@gmail.com");
-                            $email->setToList("thomas_koops@hotmail.com");
+                            $email->setToList("Arcadiauniversityat@gmail.com");
                             //$email->setCcList("");
                             //$email->setBccList("");	
                             $email->setSubject("Question from " . $name);

@@ -123,12 +123,15 @@
                     </div>
                 </div>
                 <div class="footerleft2"> 
+
                     <p class="en"><a href="jobs.html">&nbsp;&nbsp;Jobs&nbsp;&nbsp;</a>
                         <a href="legal.html">&nbsp;Legal Notices&nbsp;&nbsp;</a>
                         
                     <p class="nl"><a href="jobs.html">&nbsp;&nbsp;Banen&nbsp;&nbsp;</a>
                         <a href="legal.html">&nbsp;Wettelijke mededelingen&nbsp;&nbsp;</a>
                         
+
+                    
                 </div>
             </div>			
         </div>

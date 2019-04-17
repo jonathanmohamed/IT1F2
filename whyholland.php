@@ -3,7 +3,7 @@
     <head>
         <title>Studying in Holland</title>
         <meta charset="UTF-8">
-        <link href="style.css" type="text/css" rel="stylesheet"/>
+        <link href="css/style.css" type="text/css" rel="stylesheet"/>
         <link href="css/meins.css" type="text/css" rel="stylesheet"/>
         <style>
             <?php
@@ -67,8 +67,12 @@
                         </form>
                     </div>
                 </div>
-            </div>	
+            </div>
+            <hr>
             <div style="clear:both"></div>
+            <div class="titel">
+                <h1>Why study in Holland?</h1>
+            </div>
             <div class="bilde">
                 <img class="kleine" src="images/holland.jpg" alt="holland.gif">
             </div>

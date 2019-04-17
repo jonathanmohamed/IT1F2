@@ -84,10 +84,7 @@
                         <div class="newstext">
                             <h3 class="en">Students on Stage “This innovation produces fuel savings of more than 10% for the shipping industry”</h3>
                             <h3 class="nl">Students op Stage “Deze innovatie levert de scheepvaart een brandstofbesparing van ruim 10% op”</h3>
-                            <br>
-                            <br>
-                            <br>
-                            <a href="#"><img src="images/info.png" alt="More Info"></a>
+                            <div class="more"><a href="#"><img src="images/info.png" alt="More Info"></a></div>
                         </div>
                     </div>
                     <hr>
@@ -98,11 +95,7 @@
                         <div class="newstext">
                             <h3 class="en">Arcadia University welcomes record number of visitors during Open Day!</h3>
                             <h3 class="nl">Arcadia Hogeschool verwelkomt een record aantal bezoekers tijdens de open dag!</h3>
-                            <br>
-                            <br>
-                            <br>
-                            <br>
-                            <a href="#"><img src="images/info.png" alt="More Info"></a>
+                            <div class="more"><a href="#"><img src="images/info.png" alt="More Info"></a></div>
                         </div>
                     </div>
                 </div>

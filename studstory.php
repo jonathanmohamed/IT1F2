@@ -69,6 +69,7 @@
                     </div>
                 </div>
             </div>
+            <hr>
             <div class="stories">
                 <div class="story">
                     <h1 class="en"> Student Stories</h1>
