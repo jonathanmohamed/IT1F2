@@ -53,7 +53,7 @@
                         </form>
                     </div>
                 </div>
-                <hr>
+
                 <div class="buttonlist1 nl">
                     <a href="news.php" class="button"><h3>Nieuws</h3></a>
                     <a href="studStory.php" class="button"><h3>Belevingen Studenten</h3></a>
@@ -69,6 +69,7 @@
                     </div>
                 </div>
             </div>
+            <hr>
             <div class="vacancies en" id="blueLink">
                 <h1>Vacancies and internships</h1>
                 <p>Are you looking for a challenging work environment in which you can make the difference? Come and work at Arcadia University of Arts and Science. To contact us <a href="contact.php">click here</a></p>
