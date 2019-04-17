@@ -6,7 +6,6 @@
         <link href="CSS/style.css" type="text/css" rel="stylesheet"/>
         <link href="CSS/jobs.css" type="text/css" rel="stylesheet"/>
     </head>
-
     <body>
         <div id="container">
 

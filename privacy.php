@@ -121,8 +121,6 @@
                 <h3>Security</h3>
                 <p><br>Arcadia is committed to protecting your data and has taken appropriate measures to prevent misuse, loss, unauthorised access, unwanted disclosure and unauthorised modification. If you believe that your data is not securely protected or there are indications of misuse, please send an email to <a href="mailto:arcadiauniversityat@gmail.com?subject=Privacy" title="Email to">questions@arcadia.edu</a> or to Arcadia's Data Protection Office, <a href="mailto:arcadiauniversityat@gmail.com?subject=Privacy" title="Email to">Arcadia Jones</a>.<br><br></p>
             </div>
-
-
             <!-- your code here -->			
             <div class="footer">
                 <div class="footerleft1"> 
