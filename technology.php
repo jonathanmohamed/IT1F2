@@ -120,6 +120,7 @@
                     <li>EU/EEA - &euro; 2000,- </li>
                     <li>NON EU/EEA - &euro; 8000,- </li>
                 </ul>
+                <p> Curious about aerospace? Why not check out the depature times from Schiphol! <a href=schipholfeed.php><i>Click here.</i></a>
 
             </div>
             <div class="detail nl">
