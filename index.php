@@ -257,8 +257,8 @@
                 </div>
                 <div class="footerleft2 nl"> 
                     <p><a href="jobs.php">&nbsp;&nbsp;Banen&nbsp;&nbsp;</a>
-                        <a href="legal.php">&nbsp;Wettelijke mededelingen&nbsp;&nbsp;</a>
-                        <a href="privacy.php">&nbsp;&nbsp;Privacykennisgevingen</a></p>
+                       <a href="legal.php">&nbsp;Wettelijke mededelingen&nbsp;&nbsp;</a>
+                       <a href="privacy.php">&nbsp;&nbsp;Privacykennisgevingen</a></p>
                 </div>
             </div>			
         </div>
