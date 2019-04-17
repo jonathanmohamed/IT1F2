@@ -5,6 +5,33 @@
         <meta charset="UTF-8">
         <link href="style.css" type="text/css" rel="stylesheet"/>
         <link href="css/meins.css" type="text/css" rel="stylesheet"/>
+        <style>
+            <?php
+            if (isset($_POST['submit'])) {
+                $language = $_POST['language'];
+            } else {
+                $language = "en";
+            }
+            ?>
+            .nl
+            {
+                <?php
+                if ($language == "en") {
+                    echo'display:none;'
+                    . 'visibility: hidden;';
+                }
+                ?>
+            }   
+            .en
+            {
+                <?php
+                if ($language == "nl") {
+                    echo'display:none;'
+                    . 'visibility: hidden;';
+                }
+                ?>
+            }  
+        </style>
     </head>
     <body>
         <div id="container">
@@ -13,9 +40,21 @@
                     <a href="index.php"><img src="images/logo.jpg" alt="Logo" class="logo-img"/></a>
                 </div>
                 <div class="buttonlist1">
-                    <a href="news.php" class="button"><h3>News</h3></a>
-                    <a href="studStory.php" class="button"><h3>Student Stories</h3></a>
-                    <a href="contact.php" class="button"><h3>Contact</h3></a>
+                    <a href="news.php" class="button"><h3 class="en">News</h3></a>
+                    <a href="studStory.php" class="button"><h3 class="en">Student Stories</h3></a>
+                    <a href="contact.php" class="button"><h3 class="en">Contact</h3></a>
+                    <a href="news.php" class="button"><h3 class="nl">News</h3></a>
+                    <a href="studStory.php" class="button"><h3 class="nl">Student Stories</h3></a>
+                    <a href="contact.php" class="button"><h3 class="nl">Contact</h3></a>
+                    <div class="button">
+                        <form action="<?php echo htmlentities($_SERVER['PHP_SELF']); ?>" method="POST">
+                            <select name="language">
+                                <option value="en" selected="selected">EN</option>
+                                <option value="nl">NL</option>
+                            </select>
+                            <input type="submit" name="submit" value="submit"/>
+                        </form>
+                    </div>
                 </div>
             </div>	
             <div style="clear:both"></div>
@@ -107,10 +146,15 @@
                         <a class="footerimg" href="https://www.nvao.net"><img src="images/nvao.png" alt="nvao"/></a>
                     </div>
                 </div>
-                <div class="footerleft2"> 
+                <div class="footerleft2 en"> 
                     <p><a href="jobs.php">&nbsp;&nbsp;Jobs&nbsp;&nbsp;</a>
                         <a href="legal.php">&nbsp;Legal Notices&nbsp;&nbsp;</a>
                         <a href="privacy.php">&nbsp;&nbsp;Privacy Notices</a></p>
+                </div>
+                <div class="footerleft2 nl"> 
+                    <p><a href="jobs.php">&nbsp;&nbsp;Banen&nbsp;&nbsp;</a>
+                        <a href="legal.php">&nbsp;Wettelijke mededelingen&nbsp;&nbsp;</a>
+                        <a href="privacy.php">&nbsp;&nbsp;Privacykennisgevingen</a></p>
                 </div>
             </div>			
         </div>
