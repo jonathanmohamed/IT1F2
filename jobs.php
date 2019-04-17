@@ -3,13 +3,8 @@
   <head>
     <title>Arcadia University of Arts and Technology</title>
     <meta charset="UTF-8">
-<<<<<<< HEAD:jobs.php
-		<link href="CSS/style.css" type="text/css" rel="stylesheet"/>
-		<link href="CSS/jobs.css" type="text/css" rel="stylesheet"/>
-=======
-		<link href="style.css" type="text/css" rel="stylesheet"/>
-		<link href="jobs.css" type="text/css" rel="stylesheet"/>
->>>>>>> 4123aacc5b973aaff8c7300b7bb2e5fcc8b64588:jobs.html
+    <link href="CSS/style.css" type="text/css" rel="stylesheet"/>
+    <link href="CSS/jobs.css" type="text/css" rel="stylesheet"/>
   </head>
   
   <body>
@@ -17,24 +12,21 @@
 	
 		<div class="header">
 			<div class="logo">
-				<a href="index.html"><img src="images/logo.jpg" alt="Logo" class="logo-img"/></a>
+				<a href="index.php"><img src="images/logo.jpg" alt="Logo" class="logo-img"/></a>
 			</div>
 			<div class="buttonlist1">
 				<a href="news.php" class="button"><h3>News</h3></a>
-				<a href="studStory.html" class="button"><h3>Student Stories</h3></a>
+				<a href="studStory.php" class="button"><h3>Student Stories</h3></a>
 				<a href="contact.php" class="button"><h3>Contact</h3></a>
 			</div>
 		</div>
             <hr>
-	<!-- your code here -->	
+
 		<div class="vacancies">
 			<h1>Vacancies and internships</h1>
 				<p>Are you looking for a challenging work environment in which you can make the difference? Come and work at NHL Stenden University of Applied Sciences.</p>
 		 </div>
-	
-	
-
-	<!-- your code here -->			
+		
 		<div class="footer">
 			<div class="footerleft1"> 
 				<div class="footerimg1">
@@ -62,9 +54,9 @@
 				</div>
 			</div>
 			<div class="footerleft2"> 
-				<p><a href="jobs.html">&nbsp;&nbsp;Jobs&nbsp;&nbsp;</a>
-				<a href="legal.html">&nbsp;Legal Notices&nbsp;&nbsp;</a>
-				<a href="privacy.html">&nbsp;&nbsp;Privacy Notices</a></p>
+				<p><a href="jobs.php">&nbsp;&nbsp;Jobs&nbsp;&nbsp;</a>
+				<a href="legal.php">&nbsp;Legal Notices&nbsp;&nbsp;</a>
+				<a href="privacy.php">&nbsp;&nbsp;Privacy Notices</a></p>
 			</div>
 		</div>			
 	</div>
