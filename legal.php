@@ -3,13 +3,8 @@
   <head>
     <title>Arcadia University of Arts and Technology</title>
     <meta charset="UTF-8">
-<<<<<<< HEAD:legal.php
-		<link href="CSS/style.css" type="text/css" rel="stylesheet"/>
-		<link href="CSS/legal.css" type="text/css" rel="stylesheet"/>
-=======
-		<link href="style.css" type="text/css" rel="stylesheet"/>
-		<link href="legal.css" type="text/css" rel="stylesheet"/>
->>>>>>> 4123aacc5b973aaff8c7300b7bb2e5fcc8b64588:legal.html
+    <link href="CSS/style.css" type="text/css" rel="stylesheet"/>
+    <link href="CSS/legal.css" type="text/css" rel="stylesheet"/>
   </head>
   
   <body>
@@ -62,9 +57,9 @@
 				</div>
 			</div>
 			<div class="footerleft2"> 
-				<p><a href="jobs.html">&nbsp;&nbsp;Jobs&nbsp;&nbsp;</a>
-				<a href="legal.html">&nbsp;Legal Notices&nbsp;&nbsp;</a>
-				<a href="privacy.html">&nbsp;&nbsp;Privacy Notices</a></p>
+				<p><a href="jobs.php">&nbsp;&nbsp;Jobs&nbsp;&nbsp;</a>
+				<a href="legal.php">&nbsp;Legal Notices&nbsp;&nbsp;</a>
+				<a href="privacy.php">&nbsp;&nbsp;Privacy Notices</a></p>
 			</div>
 		</div>			
 	</div>
