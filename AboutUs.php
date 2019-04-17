@@ -67,7 +67,7 @@
                     </div>
                 </div>
             </div>	
-
+            <hr>
             <div class="about">
                 <fieldset>
                     <legend>

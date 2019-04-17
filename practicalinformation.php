@@ -72,7 +72,7 @@
             <div class="titel">
                 <h1>Practical Information</h1>
             </div>
-            <div class="detaile en">
+            <div class="detailee en">
                 <h2>Living Costs</h2>
                 <p>
                     <i>The Student's Cost of Living in the Netherlands</i>
@@ -119,7 +119,7 @@
                     </a>
                 </p>
             </div>
-            <div class="detaile nl">
+            <div class="detailee nl">
                 <h2>Levens kosten</h2>
                 <p>
                     <i>Kost van studeren in Nederland</i>

@@ -7,7 +7,7 @@
 <<<<<<< HEAD:privacy.php
 		<link href="CSS/style.css" type="text/css" rel="stylesheet"/>
 		<link href="CSS/privacy.css" type="text/css" rel="stylesheet"/>
-=======
+
 		<link href="style.css" type="text/css" rel="stylesheet"/>
 		<link href="privacy.css" type="text/css" rel="stylesheet"/>
 >>>>>>> 4123aacc5b973aaff8c7300b7bb2e5fcc8b64588:privacy.html
@@ -26,6 +26,7 @@
 				<a href="contact.php" class="button"><h3>Contact</h3></a>
 			</div>
 		</div>
+            <hr>
 	<!-- your code here -->		
 		<div id="jobs">
 		<h1>Privacy statement</h1>
@@ -118,7 +119,7 @@
 	</div>
   </body>
 </html>
-=======
+
 <!DOCTYPE html>
 <html>
   <head>
