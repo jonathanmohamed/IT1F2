@@ -170,12 +170,12 @@
             <div class="footer">
                 <div class="footerleft1"> 
                     <div class="footerimg1">
-                        <a class="footerimg" href="https://twitter.com">
+                        <a class="footerimg" href="https://twitter.com/Arcadia70151932">
                             <img src="images/tweet.png" alt="twitter"/>
                         </a>
                     </div>
                     <div class="footerimg1">
-                        <a class="footerimg" href="https://facebook.com">
+                        <a class="footerimg" href="https://www.facebook.com/ArcadiaUniversityAT/">
                             <img src="images/facebook.png" alt="facebook"/>
                         </a>
                     </div>

@@ -251,7 +251,7 @@
             <div class="footer">
                 <div class="footerleft1"> 
                     <div class="footerimg1">
-                        <a class="footerimg" href="https://twitter.com"><img src="images/tweet.png" alt="twitter"/></a>
+                        <a class="footerimg" href="https://twitter.com/Arcadia70151932"><img src="images/tweet.png" alt="twitter"/></a>
                     </div>
                     <div class="footerimg1">
                         <a class="footerimg" href="https://facebook.com"><img src="images/facebook.png" alt="facebook"/></a>
