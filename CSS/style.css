@@ -279,6 +279,9 @@ a{
 	color: white;
 	text-decoration: none;
 }
+#blueLink a{
+    color:blue;
+}
 /******* Jonathan's Footer's CSS End Here******/
 
 

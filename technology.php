@@ -78,7 +78,7 @@
             </div>
             <div class="bild">
                 <img class="klein" src="images/aero.jpg" alt="aero.gif"/>
-                <p>
+                <p id="blueLink">
                     <a href=https://student.sl-cloud.nl>
                         <i>Apply Now</i>
                     </a>
@@ -123,6 +123,7 @@
                     <li>EU/EEA - &euro; 2000,- </li>
                     <li>NON EU/EEA - &euro; 8000,- </li>
                 </ul>
+                <p id="blueLink"> Curious about aerospace? Why not check out the depature times from Schiphol! <a href=schipholfeed.php><i>Click here.</i></a>
 
             </div>
             <div class="detail nl">
@@ -161,6 +162,7 @@
                     <li>EU/EEA - &euro; 2000,- </li>
                     <li>NON EU/EEA - &euro; 8000,- </li>
                 </ul>
+                <p id="blueLink"> Benieuwd naar luchtvaart? Waarom niet een kijkje nemen naar de vertrektijden op Schiphol! <a href=schipholfeed.php><i>Klik hier.</i></a>
 
             </div>
             <div style="clear:both"></div>
@@ -173,7 +175,7 @@
             </div>
             <div class="bild">
                 <img class="klein" src="images/mech.jpg" alt="mech.gif"/>
-                <p>
+                <p id="blueLink">
                     <a href=https://student.sl-cloud.nl>
                         <i>Apply Now</i>
                     </a>
