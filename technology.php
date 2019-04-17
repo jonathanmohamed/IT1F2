@@ -160,10 +160,9 @@
                 </ul>
 
             </div>
-            <div>
-                <hr>
-            </div>
             <div style="clear:both"></div>
+                <hr>
+
 
             <div class="titel">
                 <h1 class="en">MECHANICAL ENGINEERING</h1>
