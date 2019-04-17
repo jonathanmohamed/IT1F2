@@ -3,8 +3,13 @@
   <head>
     <title>Arcadia University of Arts and Technology</title>
     <meta charset="UTF-8">
+<<<<<<< HEAD:legal.php
+		<link href="CSS/style.css" type="text/css" rel="stylesheet"/>
+		<link href="CSS/legal.css" type="text/css" rel="stylesheet"/>
+=======
 		<link href="style.css" type="text/css" rel="stylesheet"/>
-		<link href="jobs.css" type="text/css" rel="stylesheet"/>
+		<link href="legal.css" type="text/css" rel="stylesheet"/>
+>>>>>>> 4123aacc5b973aaff8c7300b7bb2e5fcc8b64588:legal.html
   </head>
   
   <body>
@@ -21,9 +26,9 @@
 			</div>
 		</div>
 	<!-- your code here -->	
-		<div class="vacancies">
-			<h1>Vacancies and internships</h1>
-				<p>Are you looking for a challenging work environment in which you can make the difference? Come and work at NHL Stenden University of Applied Sciences.</p>
+		<div class="legal">
+			<h1>Legal Notices</h1>
+				<p>Although every effort has been taken to ensure the accuracy of the information on the website, we cannot guarantee that the content and the information contained in it is always up-to-date, complete or true. Accordingly, no rights can be derived from the contents of the website. Neither can any rights be derived from information offered on websites accessed through links on the Arcadia University or Arts and Science,(Arcadia UAS) website.</p>
 		 </div>
 	
 	
