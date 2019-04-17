@@ -3,7 +3,7 @@
     <head>
         <title>Translation</title>
         <meta charset="UTF-8">
-        <link href="LanguageStyle.php" type="text/css" rel="stylesheet"/>
+        <link href="css/LanguageStyle.php" type="text/css" rel="stylesheet"/>
         <style>
             <?php
                 if(isset($_POST['submit'])){

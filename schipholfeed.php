@@ -3,8 +3,8 @@
     <head>
         <title>Arcadia University of Arts and Technology</title>
         <meta charset="UTF-8">
-        <link href="CSS/style.css" type="text/css" rel="stylesheet"/>
-        <link href="CSS/timetable.css" type="text/css" rel="stylesheet"/> 
+        <link href="css/style.css" type="text/css" rel="stylesheet"/>
+        <link href="css/timetable.css" type="text/css" rel="stylesheet"/> 
     </head>
     <body>
         <div id="container">
