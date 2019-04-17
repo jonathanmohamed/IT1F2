@@ -5,6 +5,7 @@
         <link rel="stylesheet" href="style.css">
         <meta charset="UTF-8">
         <link href="css/stylestory.css" type="text/css" rel="stylesheet"/>
+        <link href="css/style.css" type="text/css" rel="stylesheet"/>
         <style>
             <?php
             if (isset($_POST['submit'])) {
