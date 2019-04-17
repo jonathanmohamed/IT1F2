@@ -71,7 +71,7 @@
             <hr>
             <div style="clear:both"></div>
             <div class="titel">
-                <h1>Living Cost</h1>
+                <h1>Why study in Holland?</h1>
             </div>
             <div class="bilde">
                 <img class="kleine" src="images/holland.jpg" alt="holland.gif">
