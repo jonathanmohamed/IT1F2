@@ -128,7 +128,7 @@
                             if (isset($_POST['send'])) {
                                 $EU_check = $_POST['student'];
                             }
-                            if (isset($_POST['submit'])) {
+                            if (isset($_POST['send'])) {
                                 if (empty($_POST['question'])) {
                                     echo "<li>*Please enter your question.</li>";
                                 } else {
